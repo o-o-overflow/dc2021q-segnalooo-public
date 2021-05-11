@@ -1,0 +1,5 @@
+#!/bin/sh
+
+timeout -k1 50 stdbuf -i0 -o0 -e0 /stub 2>/dev/null; sleep 1
+
+
